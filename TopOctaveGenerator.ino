@@ -43,4 +43,5 @@ void setup() {
 }
 
 void loop() {
+  asm("wfi"); // optional, put CPU to sleep
 }
